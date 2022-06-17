@@ -37,7 +37,7 @@ public class Studente {
 		else if (percentualeAssenze >= 25  && mediaVoti > 2) {
 			isPromosso = true ;
 		}
-		else if (percentualeAssenze < 25 && mediaVoti >= 2) {
+		else if (percentualeAssenze < 25 && percentualeAssenze < 50 && mediaVoti >= 2) {
 			isPromosso = true;
 		}
 		else{
