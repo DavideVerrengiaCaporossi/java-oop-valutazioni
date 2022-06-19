@@ -5,10 +5,10 @@ public class Studente {
 	
 	int idStudente ;
 	int percentualeAssenze;
-	float mediaVoti;
+	double mediaVoti;
 	
 	//creazione costruttore
-	public Studente(int idStudente, int percentualeAssenze, float mediaVoti) {
+	public Studente(int idStudente, int percentualeAssenze, double mediaVoti) {
 		super();
 		this.idStudente = idStudente;
 		this.percentualeAssenze = percentualeAssenze;
